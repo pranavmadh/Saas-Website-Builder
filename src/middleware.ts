@@ -1,9 +1,11 @@
 import { clerkMiddleware, createRouteMatcher } from "@clerk/nextjs/server";
+import { NextResponse } from "next/server";
 
 const publicRoute = createRouteMatcher([
   "/agency/sign-up(.*)",
   "/agency/sign-in(.*)",
   "/site",
+  "/",
 ]);
 
 export default clerkMiddleware(async (auth, req) => {

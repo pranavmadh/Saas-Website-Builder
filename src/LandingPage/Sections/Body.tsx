@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function BodyComponent() {
   return (
     <>
-      <div className="flex flex-col items-center gap-5 z-50 px-5 md:px-0 ">
+      <div className="flex flex-col items-center gap-5 z-40 px-5 md:px-0 ">
         <div>
           <p className="text-center text-xl ">Run Your agency , In one place</p>
         </div>

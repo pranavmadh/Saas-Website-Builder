@@ -1,6 +1,5 @@
 import BodyComponent from "@/LandingPage/Sections/Body";
 import Header from "@/LandingPage/Sections/Header";
-import Link from "next/link";
 
 export default async function Home() {
   return (
